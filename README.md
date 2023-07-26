@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Todo List App](./public/screenshot.png)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The Todo List App is a simple React application that allows users to create, manage, and track their daily tasks. Users can add new tasks, mark tasks as completed, and remove tasks from the list.
 
-### `npm start`
+## How It Works
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Add a New Task**: To add a new task, type the task description in the input field and click the "Add Task" button. The new task will be added to the list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Complete a Task**: When a task is completed, click the "Complete" button next to the task. The task will be marked as completed, and its appearance will change to indicate completion.
 
-### `npm test`
+3. **Remove a Task**: To remove a task from the list, click the "Remove" button next to the task. The task will be removed from the list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What I Learned in React
 
-### `npm run build`
+While building this Todo List App using React, I gained a solid understanding of some key concepts and features in React:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Components**: I learned how to create functional components in React and how to compose a user interface using reusable components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **State Management**: I learned how to use React's `useState` hook to manage state within functional components. State management is essential for keeping track of the list of tasks and their completion status.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Props**: I utilized props to pass data and functions between parent and child components, enabling communication and sharing data throughout the application.
 
-### `npm run eject`
+4. **Rendering and Reconciliation**: I discovered how React's Virtual DOM works, allowing for efficient updates and rendering only the necessary changes to the actual DOM.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Event Handling**: I practiced handling events like form submissions, button clicks, and input changes, enabling user interactions in the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **Conditional Rendering**: I implemented conditional rendering to display different components or styles based on the state of the tasks (e.g., marking a task as completed).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+7. **Styling**: While not a core React concept, I used CSS to style the components and create a visually appealing user interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Overall, building the Todo List App provided me with a hands-on experience in React development, solidifying my knowledge of React's fundamental concepts and empowering me to create functional and interactive user interfaces.
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the Todo List App on your local machine:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository to your computer.
+2. Navigate to the project directory in your terminal.
+3. Install the necessary dependencies by running `npm install`.
+4. Start the development server with `npm start`.
+5. Open your browser and visit `http://localhost:3000` to view the app.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- JavaScript
+- HTML
+- CSS
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to use, modify, and distribute this project as per the terms of the MIT License.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Thank you for checking out my Todo List App! If you have any questions or suggestions, please feel free to reach out. Happy coding!
